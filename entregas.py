@@ -74,7 +74,7 @@ print(f"\nCreando estructura estricta para: {nombre_carpeta}...")
 
 # os.path.join asegura la compatibilidad de las rutas independientemente del sistema operativo.
 # exist_ok=True previene que el programa falle si el directorio ya existe.
-os.makedirs(os.path.join(nombre_carpeta, "Doc"), exist_ok=True)
+os.makedirs(os.path.join(nombre_carpeta, "Docs"), exist_ok=True)
 
 if crear_diagramas:
     os.makedirs(os.path.join(nombre_carpeta, "Diagramas"), exist_ok=True)
